@@ -1,0 +1,52 @@
+Hi Jake,
+
+I would be delighted!  As you know, I've long hoped we might be able to tackle this matter.  I like what you wrote.
+
+I have been thinking about generalization a lot recently, as well.  My thoughts go along the line, "generalization:  how social scientists went wrong."  (These words sound far more pretentious than I intend.)  What follows are random thoughts, not some logical progression.
+
+First, I find it useful to use the verb, generalize, rather than the noun, generalization.  Since the publication of Prezworski and Teune's, The Logic of Comparative Social Inquiry, we seem to have adopted the twin ideas that more data are always better and that the task is to make general (average) statements (i.e., to generalize) across the "more data".  However, we now know that estimates of averages (regression coefficients) mean almost nothing if there is heterogeneity in the data.  So, in our pursuit to estimate averages over a lot of data, we might have been pursuing something that tells us little.
+
+Moreover, if the pursuit is generalization via data, then social scientists have performed poorly.  There is compelling evidence that most of our "general" statements derived from data do not apply to more than half of the world.
+
+Most political scientists, I think, consider themselves as following in the Popperian tradition.  Yet, Popper emphasized, over and over, the necessity for strong, rigorous theory before all else.  Once the theory is in place, then one goes out and tests its validity in a variety of settings.  There is nothing in Popper suggesting that generalization is best obtained by finding averages across large data sets.
+
+Somehow, the notion of generalizing to a population from a random sample has contaminated our thinking about how to generalize.  In the case of random samples, the task is to make statements from the random sample that apply to the population from which it was drawn.  Fair enough.  The problem, I think, is that social scientists have not adequately separated this notion of "generalize" from a more basic notion that philosophy of science types and most scientists (I think) use.  In the latter case, the "general" really does lie with the theory.
+
+I was thinking on my way back from Wisconsin that we should probably begin to use old terms like "validate" or "confirm" rather than generalize.  We have a theory.  We use data to see if it can be falsified (and not with just one negative result, of course).
+
+Right about now is probably the time to write a paper on the topic.  Obviously, the pendulum has swung toward showing cause and effect, even if "generalization" goes out the window.  Interest in heterogeneity and better understanding of mechanisms has grown rapidly.  Some smart qualitative researchers have made good points that warrant recognition.  One might ask, how do we reconcile our traditional pursuit of general statements with these recent trends?  Are these recent trends pulling us in a wrong direction?  Or, alternatively, has the model of science that has guided a good part of the discipline for more than 50 years been wrong?
+
+Since these comments are really quite random, they will almost certainly not help.  Nevertheless, I would be excited to work on a paper with you.
+
+Thanks much for writing.
+
+-----Original Message-----
+From: Bowers, Jake
+Sent: Sunday, May 19, 2013 10:32 AM
+To: Kuklinski, James H
+Subject: Generalization paper
+
+Hi Jim,
+
+I'm getting fed up with the lack of understanding about generalization. (I'm heading to a book conference for Nick Weller and Jeb Barnes --- a book on something like process-tracing/multi-method reserach --- and their manuscript is driving me crazy on this front.).
+
+So, despite an overcommitted summer, I am wondering if you and I shouldn't try to do something like devote two full days (weekdays if possible) where we try to get a draft of a short note done.  My hunch is that we can get the general point across in relatively few pages. This could be like a workshop piece in AJPS. That is, I can see a flow of argument saying something like:
+
+\title{Generalization is the Job of Theory} OR
+\title{Generalization: Theory's Job} OR .... \title{Why do we experiment?}
+
+(1) Here is an uncontroversial description of the point of observation in science. [i.e. we observe to learn about theory (where we take a very broad view of what counts as a "theory") or perhaps where we dump "theory" and say, "shared explanations" or something].
+
+(2) If you believe that story about science, then it follows that (a) we never "generalize" from one observation to another unmediated by theory; and (b) that whether a set of observations is "representative" of some other set, relates uneasily and perhaps subtly with whether we can do the basic job of science [i.e. learn about theory from observation].
+
+(3) Here are a few reasons why representativeness matters and help us learn about theory. But notice, that these concerns would never make us apologize for a given study on the grounds of generalizability. [use shadish etc..]
+
+(4) To Notice: (a) We do not need to be relativists regarding either theory or observation to hold this view of science. [find a good quote from Clarke and Primo]. That is, we know that observation is driven by and made meaningful by theory, but we do not need to claim that there is no reality in order to also believe that the direction we turn our eyes or the things we notice depend on our goals in looking around.
+
+(b) Notice also while statistics helps us understand how a given bit of observation may relate to unobserved other observations, it does not help us directly reflect on how a given bit of observation changes our theory/confirms/challenges/ec...   That is, a very clear and well justified confidence interval (or p-value) from a randomized experiment summarizes how the experiment might have come out differently if the sequence of coin flips had arising differently [or if the handful of colored cards had been drawn differently from the hat]. But, whether we can learn something from this clear and well justified bit of observation depends on the reason we did it.
+
+What do you think? I'd like to give folks something to cite with our names on it. You are starting your sabbatical and we each have lots to do. That is why I'm wondering about you and I having a kind of workshop type of workflow --- where we have a short time to produce something relatively short.
+
+I'm emailing now because at this workshop tomorrow I want to be able to articulate mainly your ideas and give you credit so that they cite you in the book.
+
+Jake

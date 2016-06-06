@@ -1,0 +1,7 @@
+
+The point of observation is to learn about theory. One need not endorse ontological relativism to understand this basic fact about science: we learn about theory, and theory helps us explain the world. Theory need not be formal. Theory does not require assumptions about human nature. Yet, the main point of doing an experiment or gathering some observations is to learn about some pre-existing story about relationships among those observations (or about other processes giving rise to those observations).  A secondary point of observation is to challenge existing understandings to spur new theory and new explanations. [Who said that the most important words in science were not "Eureka!" but "That's funny...."?] 
+
+If we agree with this very basic understanding of science, then it follows that concerns about the generalizability of experiments and observational studies must be recast and reunderstood. That is, if the point of an experiment is to learn about a theory, then why should we care about whether the subjects in the experiment approximate a random sample from some well defined population? In this short essay, we explain that one should care about how what one learns in one experiment may help explain what happens in other experiments, but we also try to provide a way for scientists to discuss generalizability in light of what they already believe about science.
+
+[I'm trying to avoid saying "People are wrong"... etc..]  
+
