@@ -1,5 +1,7 @@
 
 
+# More thoughts from me.
+
 Reviews that say "Reject because cannot generalize" will not count. But reviews that explain why a given set of findings do not help us learn about important stuff is ok.
 
 The criteria of "generalizable" is changed. To "generalize from a study" is different from forcasting or predicting to non-study populations.
