@@ -9,7 +9,7 @@ header-includes: |
   \usepackage{fancyhdr}
   \fancypagestyle{myfancy}{%
     \fancyfoot[C]{}
-    \fancyfoot[R]{PS 522 Spring 2021 --- \today --- \thepage}}
+    \fancyfoot[R]{Version of --- \today --- \thepage}}
   \pagestyle{myfancy}
 secnumdepth: 2
 geometry: margin=1in
@@ -30,6 +30,105 @@ that transparency and replicability principles arising to serve the sciences are
 not directly political enough for use in policy and we advocate tighter
 coordination between ethnographic teams of human centered designers, social
 scientists, and data scientists. -->
+
+What does a policy expert making decisions for the good of the people in city A
+tomorrow learn from a study done in city B yesterday or last year or ten years
+ago? What should such a person learn from other studies in other cities in
+other times? What research practices might help this person learn better / use
+the public / published information more effectively or less effectively?
+
+We engage with these questions in an effort to help (1) help policy oriented
+research teams adapt research integrity practices from the social sciences to
+their context and (2) help those who are considering coordinated experiments or
+studies plan them so as to most effectively enhance evidence-based  policy decision making.
+
+Overall points:
+ - Policy decisions should help a fixed set of people in a fixed place over a
+   more or less fixed time (perhaps time is most flexible). If I am in charge of
+   helping families with young children enhance the language development of
+   those toddlers in a given place, that is my job, my focus. I am not hoping to
+   improve the lives of people in other places or other times except very
+   secondarily as people learn about what I do. And, in fact, teaching others
+   about what I do is secondary or tertiary. If by chance people outside my
+   place learn, then fine. But it is no where near the most important thing.
+ - This means that learning that the estimated causal effect of an intervention
+   is 100 words plus or minus 20 words (for example) in one other city can only
+   be used in terms of **sign** not magnitude. What matters in fact is that it
+   would be very surprising to see 100 if the null were true or that we "can
+   detect an effect".  (More decision makers should pay more attention to
+   magnitude -- after all, a detectable effect of 10 words may not be worth the
+   expense of the program. But these conversations --- "how large of an effect
+   would be necessary to justify the expense of the program"  have turned out to
+   be very difficult in many areas --- it is hard to monetize, say, academic
+   inequality or equality. We set this aside for now but may be an important
+   task to tackle in the future --- how to help people reason about whether a
+   study would be worthwhile given different costs of programs and anticipated
+   benefits.) 
+ - This also means that "statistical significance" seems to matter --- people do
+   not have well development judgements about continuous p-values. Or, say,
+   "posterior probability that the effect is greater than 0".
+ - So, savvy decision makers are not looking for forecasts in most cases ---
+   they understand that (1) the ways in which their city will provide the
+   intervention differs from other cities (in statistical terms, the nature of
+   the treatment will differ), the measurement of the outcome will differ, the
+   ways in which the context of the city facilitates or hinders the causal
+   mechanism linking intervention to outcome differs in their city from other
+   cities. (This is not so different from family decision makers by the way. Of
+   course we know that, on average 5 servings of fruit or vegetables per day is
+   associated with better health outcomes for kids. Yet, we don't imagine that
+   this is a forecast for a given family. It is better than nothing but each
+   family knows it is not the average family and so must make its own decisions
+   in regards fruit and vegetable servings.)
+
+So, one other study provides information to the extent that it comes from
+similar places (i.e. similar covariate distributions) and perhaps a sense that
+the intervention to covariate interactions are similar, and intervention
+provision is similar, and outcome measurement and scale is similar.
+
+What about effects found in 5 cities that are not particularly similar to ones
+own city? If those 5 were all the same basically, then it would be just like one
+big study of a dissimilar city: bigger study is better for sure.  If those 5
+differed from the focal city but also from each other, is this better
+information? (I think so.) Would "statisticall signiciant" in all of those
+cities warrant action in the focal city? Maybe. Unless there are some key
+moderators that differ: maybe the causal mechanism only functions well under
+certain circumstances --- say, if there is no civil war in the city; or the
+coaches are native speakers of the home language of the family (for example, a
+growing number of families in the USA are categorized as Spanish speakers as
+coming from Guatemala but are in fact speakers of Mayan dialects in the home.) 
+
+What about credibility? Why should a decision maker believe that the results are
+what they are? Policy decisions are often politicized or at least occur in the
+context of alternatives: should we spend the money on coaching and LENA devices
+or just give cash to families or build more libraries near these people? If the
+results appear to have come from a research team with a particular political
+point of view, what does that mean? 
+
+Should a decision maker in City A pay to support a study in Cities B,C, and D?
+even if those cities differ from City in key ways? 
+
+What if the decision maker instead pays for a study in City A itself. Does this
+result provide clear avenues for action? It might. What would studies in other
+cities add here? (I'd say they would add some information about how the
+intervention might change if the context changes --- and since the context will
+change, a savvy decision maker would want to implement a policy knowning this,
+perhaps planning in advance for such changes.) For example, flood prevention in
+cities that have not yet had serious floods --- engineers in those cities look
+to other cities that have had recent floods to learn. Houston is not Chicago,
+but the flooding of Houston from the Hurricane Blah can teach enginners in
+Chicago about their storm sewers.
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Introduction, Motivation, Overview
 
