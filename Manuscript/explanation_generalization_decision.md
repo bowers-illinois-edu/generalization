@@ -31,6 +31,111 @@ not directly political enough for use in policy and we advocate tighter
 coordination between ethnographic teams of human centered designers, social
 scientists, and data scientists. -->
 
+
+Key points:
+ - Any one or several studies helps policy makers make decisions to the extent
+   that they fill in the theory of change held implicitly or explicitly by the
+   decision maker. Imagien a theory of change as a DAG. If a study informs me
+   something new about a path over which I have control / could make a change /
+   am considering a change, then I might use that study.
+
+ - For an academic: "Does this study generalize?" means "I am having trouble
+   fitting the results of this study into my DAG." and "I would like to think
+   that I could use this finding to reason about what I might expect in another
+   context should I be asked to advise a decision maker." Or "I would like to
+   use this finding to add confidence in parts of the DAG that the scientific
+   community is creating."
+
+ - For a decision maker (or group of them, like a city council): Care less about
+   generalizing per se, and more about what a given study or set of them have to
+   say about possibilites in a given place.
+
+
+Imagine that that only one Providence Talks replication study was able to be
+completed and it was the one in Birminham, Alabama. Imagine it showed that
+families receiving the coaching plus feedback about the device ended
+up speaking more with their child at the end, and had more conversations with
+their child. Imagine that it also showed that those children had higher scores
+in kindergarten readiness than children in the control group. What might this
+mean for you if you were considering spending effort on policies focused on low
+income children? (Knowing that you might be consumed with policies to fix roads,
+etc.. and that low income children kindergarten readiness while important of
+course might not always be the primary policy  priority.)
+
+What about if all 5 cities had been able to complete the project and that more
+or less the same results were seen across them all? Would that change anything?
+
+What kind of study not in your own city would be most useful?
+
+Issues: We may not all share a DAG. Even if we do share a DAG certain variables
+are fixed (too difficult to change) and others are not --- and this varies
+across places. Arrows from fixed variables don't help me much as a policy
+maker.
+
+So: 
+ - COuld be worth asking for DAGs from policy decision makers before you do one
+   or even coordinated studies. Studies that randomize something that no
+   decision maker would change are not helpful to that person, for example. 
+ - Also could be that evidence (say, RCTs) can inform policy even if those RCTs
+   do not evaluate a whole policy in an ITT form. An RCT that provides focused
+   information about one arrow might be more useful than an RCT that provides an
+   ITT style result, for example.
+ - Role of context: similar to the fixed variables. Often these are implicit.
+   Evaluate effect of the kind of policy intervention that is meaningful right
+   now --- postcards, say. But this assumes mailboxes and a mailing service and
+   literacy. Importance of trying to figure this out --- pre-mortems, dark
+   logic, participatory DAG creation, mobilizing creativity.
+ - Another implication: scientific community kind of provides the DAGs. What if
+   we have a DAG that says "Stricking Match --> Friction --> Flame" makes sense.
+   Are we wrong if someone tries this on the Moon and discovered that it does
+   work? In fact we only have a partial story. And the failure to get flame on
+   the moon from striking a match is useful --- it reveals that we need consider
+   what else we should add to the DAG (and why, what is it about Friction, etc..
+   that causes flame?)
+
+
+For the policy maker the question is not whether one can predict the effect of
+doing the intervention as done in City B in her own City A. This is pretty rare.
+Mostly the way that the intevention would occur in City A will differ. Learning
+about a similar intervention and similar context in City B should help. And
+perhaps a City C that is like CIty B might also help. And a City D that is
+?different from either B or C? might also help?  But this makes this task a bit
+different from the task focused on by, say, Pearl and Bareimboim (2014, 2016).
+That task might be useful and may well add a lot --- but I suspect it adds more
+because of the DAG than because of the prediction.
+
+(from a persentation by Cinelli and Bareimboim)
+
+>“‘External validity’ asks the question of generalizability: To what populations, settings, treatment variables, and measurement variables can this effect be generalized?”
+• Shadish, Cook and Campbell (2002) 
+
+> “Extrapolation across studies requires ‘some understanding of the reasons for the differences.’”
+• Cox (1958)
+> “An experiment is said to have “external validity” if the distribution of outcomes realized by a treatment group is the same as the distribution of outcome that would be realized in an actual program.”
+Manski (2007)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 What does a policy expert making decisions for the good of the people in city A
 tomorrow learn from a study done in city B yesterday or last year or ten years
 ago? What should such a person learn from other studies in other cities in
@@ -89,7 +194,7 @@ What about effects found in 5 cities that are not particularly similar to ones
 own city? If those 5 were all the same basically, then it would be just like one
 big study of a dissimilar city: bigger study is better for sure.  If those 5
 differed from the focal city but also from each other, is this better
-information? (I think so.) Would "statisticall signiciant" in all of those
+information? (I think so.) Would "statistically significant" in all of those
 cities warrant action in the focal city? Maybe. Unless there are some key
 moderators that differ: maybe the causal mechanism only functions well under
 certain circumstances --- say, if there is no civil war in the city; or the
@@ -118,6 +223,39 @@ to other cities that have had recent floods to learn. Houston is not Chicago,
 but the flooding of Houston from the Hurricane Blah can teach enginners in
 Chicago about their storm sewers.
 
+Notice also: decisions tend to emerge from committees with lots of influence
+from stakeholders as well as a few influential voices. So, there tends not to be
+a single decision maker.
+
+I think that first a city council (say) is adding up advantages and
+disadvantages of any given new idea --- say, spending money to deploy coaches to
+provide feedback to parents about words spoken in their home as recorded by some
+privacy protecting technology.  Some of the advantages and disadvantages are
+about how such an intervention might be received/interpreted by those who do not
+directly benefit but who are constituents: why not spend the money on splash
+parks, we know that exercise is good and more kids can access this, not just the
+few poorest children? Why not just give half of the money allocated to coaches
+and devices to the families directly and the other half to splash parks --- a
+compromise, families can even be told that they can spend their money on LENA
+devices and coaching online.
+
+What can studies done elsewhere add to this discussion? Imagine the debate is
+between three mechanisms to improve the lives of low income toddlers: exercise
+and the outdoors (could be over 1 year if we want to staff the splash parks, or
+spend to advertise them, etc..), feedback about home language over about 1 year
+period, and moderately increased income over a 1 year period,
+
+
+
+
+
+
+
+
+
+
+What if a decision maker group in City A could draw a DAG. And a group of
+researchers could claim to have learned about a causal effect 
 
 
 
