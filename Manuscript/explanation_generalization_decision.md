@@ -1,12 +1,11 @@
 ---
-title: "Explanation, Generalization, Decision: The Role of Cumulation in Policy
-Design and Decision and the Role of PAPs and Research Integrity Practices there
-in. Also Theory and Explanation."
+title: |
+ | "Explanation, Generalization, Decision: The Role of Cumulation in Policy Design and Decision and the Role of PAPs and Research Integrity Practices there in. Also Theory and Explanation."
 author:
  - Jake Bowers^[<jwbowers@illinois.edu>]
  - James Kuklinski
 header-includes: |
-  \usepackage{fancyhdr}
+  \usepackage{fancyhdr,quiver}
   \fancypagestyle{myfancy}{%
     \fancyfoot[C]{}
     \fancyfoot[R]{Version of --- \today --- \thepage}}
@@ -113,27 +112,6 @@ because of the DAG than because of the prediction.
 • Cox (1958)
 > “An experiment is said to have “external validity” if the distribution of outcomes realized by a treatment group is the same as the distribution of outcome that would be realized in an actual program.”
 Manski (2007)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 What does a policy expert making decisions for the good of the people in city A
@@ -249,18 +227,8 @@ period, and moderately increased income over a 1 year period,
 
 
 
-
-
-
-
-
 What if a decision maker group in City A could draw a DAG. And a group of
 researchers could claim to have learned about a causal effect 
-
-
-
-
-
 
 
 
@@ -512,6 +480,70 @@ contribute to an overall assessment of the benefits of this treatment.
 
 
 
+
+
+
+We have a good sense for when an identical experiment would yield the same
+result in a new place or time, and/or how the results of the original experiment
+would differ from a new experiment or observational study done with the same
+intervention and outcome in a new place and/or time. The key in all cases is to
+have a sense of the mechanism linking the intervention and outcome and the
+ability to measure variables that drive that mechanism in both places. Given a
+theory linking an intervention and an outcome and other variables that can be
+written as a DAG, one can determine whether, say, the same intervention done in
+a new context will yield the same results. Of course, we may be wrong.
+
+Striking match --> Flame (Iteration 1. Imagining the discovery of matches rather
+than their creation.)
+
+Striking match --> Friction --> Flame (Iteration 2)
+
+Will it work outside our habitat on the Moon? Well, it depends on measuring
+friction? Can you exert enough through the glove of your space suit?
+
+Turns out that it doesn't work despite multiple experiments with different
+friction producing substances and forces. Why? The theory is incomplete. In this
+case, a better theory would have included more about combustion --- and gas
+environment. In that case, with a better DAG, we could have said, since we can
+measure oxygen both at the source experiment and the new place (the Moon surface
+outside the habitat), we can say that the results of this experiment will not
+transport. 
+
+Stricking match --> Friction ---> Flame <-- Oxygen (Iteration 3)
+
+or
+
+<!-- pandoc -t html -F mermaid-filter -o something.html something.md -->
+
+```{.mermaid}
+graph TD
+    A[Striking Match] -->|f| B(Friction)
+    B --> C{fa:fa-fire Flame}
+    D[Spark] --> C
+    E[Oxygen] --> C
+```
+
+<!-- https://q.uiver.app/?q=WzAsNixbMCwxLCJcXHRleHR7U3RyaWtpbmcgTWF0Y2h9Il0sWzEsMSwiXFx0ZXh0e0ZyaWN0aW9ufSJdLFszLDEsIlxcdGV4dHtGbGFtZX0iXSxbMSwwLCJcXHRleHR7T3h5Z2VufSJdLFsxLDIsIlxcdGV4dHtTcGFya30iXSxbMiwxLCJcXHRleHR7V29vZH0iXSxbMCwxXSxbMSw1XSxbMyw1XSxbNCw1XSxbNSwyXV0= -->
+
+\[\begin{tikzcd}
+	& {\text{Oxygen}} \\
+	{\text{Striking Match}} & {\text{Friction}} & {\text{Wood}} & {\text{Flame}} \\
+	& {\text{Spark}}
+	\arrow[from=2-1, to=2-2]
+	\arrow[from=2-2, to=2-3]
+	\arrow[from=1-2, to=2-3]
+	\arrow[from=3-2, to=2-3]
+	\arrow[from=2-3, to=2-4]
+\end{tikzcd}\]
+
+Notice that if this is a DAG that represents the shared knowledge about matches
+and flame between people both on Earth and on the Moon, then Earth-bound
+researchers could provide relevant information without striking matches. For
+example, they could create a flame some other way (perhaps finding one after a
+lightening strike, or igniting one with an electric spark) and manipulating
+oxygen. If they couldn't get a flame without oxygen then it follows that match
+striking would not be effective on the moon **even if they never tested the
+striking the flame** theory on the Earth let alone on the Moon.
 
 
 
