@@ -1,9 +1,10 @@
 ---
-title: Studies do not cumulate. Humans cumulate them: Six Implications of this
-fact for study coordination for scientific learning and policy action.
+title: | Decisions
+ | Decisions 
 author:
  - Jake Bowers^[<jwbowers@illinois.edu>]
  - James Kuklinski
+ - Carrie Cihak
 header-includes: |
   \usepackage{fancyhdr,quiver}
   \fancypagestyle{myfancy}{%
@@ -19,14 +20,67 @@ bibliography: ../../Research-Group-Bibliography/big.bib
 biblatex: true
 ---
 
+# A fiction:
+
+A mayor has decided to work to improve the educational outcomes of low income
+children in her city. She begins by learning about the causes of such outcomes
+and comes up with a graph to describe her results.
+
+
+\begin{tikzcd}
+ {\text{Family SES}}  & {\text{Educational Outcomes}} \\
+ {\text{Classroom Size}} \\
+ {\text{Teacher Quality}} \\ 
+    \arrow[from=1-1, to=1-2]
+    \arrow[from=2-1, to=1-2]
+    \arrow[from=3-1, to=1-2]
+\end{tikzcd}
+
+
+She now has some decisions to make:
+ - She could commission research in her own city (let's imagine that all
+   research in this paper is an RCT just to make it a bit easier).
+ - She could contribute to fund research in another city (say, this is cheaper
+   and less disruptive of her own city). (the other city could be (a) "like" her
+   city or (b) not very similar to her own city. Where similarity has to do with
+   context --- and the savvy mayor is really thinking about context as different
+   variables that could change or limit any of the arrows drawn above (i.e.
+   imagine a "context" node in between each of the main causal drivers and the
+   outcomes)
+ - She could contribute to one of the coordinated experiments occuring around
+   the world (where, say, similar interventions are done in multiple different
+   cities --- none of them very similar to her own city)
+ - She could try to get her city to participate in a coordinated experiment.
+
+
+Now, there is a preliminary problem which is that "educational outcomes" are too
+vague to be easily measured. And the literature review in fact included studies
+of math scores among high school seniors and studies of kindergarten readiness.
+She decides to focus on kindergarten readiness and specifically on language
+abilities at kindergarten entry because she read some essays that claim that
+language abilities upon entering kindergarten can seriously disadvantage
+children with effects that are very long term --- if those kids had not been
+behind in reading and speaking and writing, they would have not been behind in
+math in their senior year of high school, or been behind in high school graduate
+rates.
+
+
+
+
+
+
+
+Studies do not cumulate. Humans cumulate them: Six Implications of this
+ |fact for study coordination for scientific learning and policy action.
+
 Over the past 50 years the US federal government has funded XX studies of the
 effectiveness of remote intercessory prayer on the health outcomes of people:
 the causal graph:
 
-\[\begin{tikzcd}
+\begin{tikzcd}
  {\text{Persons A,B,$\ldots$ pray that person Y health improves}}  & {\text{Person A Health}} \\
     \arrow[from=1-1, to=1-2]
-\end{tikzcd}\]
+\end{tikzcd}
 
 Would it have been better to have coordinated the studies? 
 
