@@ -1,6 +1,6 @@
 ---
-title: | Decisions
- | Decisions 
+title: |
+ | Decisions
 author:
  - Jake Bowers^[<jwbowers@illinois.edu>]
  - James Kuklinski
@@ -16,28 +16,89 @@ geometry: margin=1in
 link-citations: true
 numbersections: true
 colorlinks: true
+mainfont: Merriweather-Light
 bibliography: ../../Research-Group-Bibliography/big.bib
 biblatex: true
 ---
 
-# A fiction:
+# Overview/Introduction
 
 A mayor has decided to work to improve the educational outcomes of low income
-children in her city. She begins by learning about the causes of such outcomes
-and comes up with a graph to describe her results.
+children in her city. Inspired by the success of the Providence Talks pilot
+study, and the literature on the "word gap", she decides to try to improve the
+verbal abilities of children from low income families before they enter
+kindergarten.
 
 
-\begin{tikzcd}
- {\text{Family SES}}  & {\text{Educational Outcomes}} \\
- {\text{Classroom Size}} \\
- {\text{Teacher Quality}} \\ 
-    \arrow[from=1-1, to=1-2]
-    \arrow[from=2-1, to=1-2]
-    \arrow[from=3-1, to=1-2]
+<!--  from: https://tikzcd.yichuanshen.de/#N4Igdg9gJgpgziAXAbVABwnAlgFyxMJZABgBoBGAXVJADcBDAGwFcYkQAxEAX1PU1z5CKMsWp0mrdgCMefEBmx4CRMgCZxDFm0QgAxnP5KhRchU2SdIAJ6GFA5cORmNNLVN1Qe4mFADm8ESgAGYAThAAtkhkIDgQSADMvCHhUYgxcUhmINIwYF7pNDj0WIzskGBsySBhkUhqRfGISfK1admZzdVtSAAsjYndqfUDiNm5+X0AnEN1iA2xTcSzaQudvdyU3EA -->
+\begin{tikzcd}[every arrow/.append style=-latex]
+\text{Home Language Environment Quality} \arrow[rd]                                              &             \\
+\text{Family SES} \arrow[r] \arrow[u] & \text{pre-Kindergarten Verbal Ability}          \\
+\text{Neighborhood Poverty} \arrow[ru] \arrow[uu, bend left=69] \arrow[u] \arrow[r] & \text{Pre-School Quality} \arrow[u]
 \end{tikzcd}
 
 
+
+# A decision setting:
+
+
+
+A mayor has decided to work to improve the educational outcomes of low income
+children in her city. She begins by learning about what social scientists
+currently think cause such outcomes and comes up with a graph to describe her
+results.
+
+\begin{figure}[!h]
+\centering
+\begin{tikzcd}[every arrow/.append style=-latex]
+ {\text{Family SES}}  & {\text{Educational Outcomes}} \\
+ {\text{Classroom Size}} \\
+ {\text{Teacher Quality}} \\
+ {\text{Neighborhood Poverty}} \\
+    \arrow[from=1-1, to=1-2]
+    \arrow[from=2-1, to=1-2]
+    \arrow[from=3-1, to=1-2]
+    \arrow[from=4-1, to=1-2]
+\end{tikzcd}
+\caption{A theory of educational outcomes at the level of concepts and
+relationships.}\label{fig:theory1}
+\end{figure}
+
+While puzzling over what she could do with her limited budget (or what she could
+convince the city council to support given the politics of that body), she hears
+about the Providence Talks Program (the Mayor of Providence, RI received an
+award for this program and the Bloomberg Foundation was funding a 5 city
+replication of it, using RCTs instead of the original observational study
+design). This was useful to  learn because it also highlighted that the first
+causal graph was much too general --- Whose educational outcomes should matter?
+What age? Obviously certain kinds of policy interventions focus on different
+parts of the graph and aim at certain causal pathways and outcomes. The
+Providence Talks program focused on verbal abilities among toddlers with the aim
+that they would enter kindergarten well-prepared for school. Early childhood
+education outcomes seemed like something that the mayor would like to focus on
+this term --- maybe educational outcomes for older groups could be the focus
+next term if she is re-elected or a focus for some other person in her
+administration.
+
+
+\begin{figure}[!h]
+\centering
+\begin{tikzcd}[every arrow/.append style=-latex]
+{\text{Family SES}}  \arrow[from=1-1, to=1-2] \arrow[from=1-1, to=2-1] & {\text{Kindergarten Readiness Verbal Skills}} \\
+{\text{Home Language Environment Quality}}   \arrow[from=2-1, to=1-2] \\
+{\text{Neighborhood Poverty}}  \arrow[from=3-1, to=1-2] \\
+{\text{Pre-School Classroom Size}}       \arrow[from=4-1, to=1-2] \\
+{\text{Pre-School Teacher Quality}} \arrow[from=5-1, to=1-2] \\
+   \end{tikzcd}
+\caption{A theory of educational outcomes at the level of concepts and
+relationships.}\label{fig:theory2}
+\end{figure}
+
+
+
+
 She now has some decisions to make:
+
  - She could commission research in her own city (let's imagine that all
    research in this paper is an RCT just to make it a bit easier).
  - She could contribute to fund research in another city (say, this is cheaper
@@ -64,86 +125,4 @@ behind in reading and speaking and writing, they would have not been behind in
 math in their senior year of high school, or been behind in high school graduate
 rates.
 
-
-
-
-
-
-
-Studies do not cumulate. Humans cumulate them: Six Implications of this
- |fact for study coordination for scientific learning and policy action.
-
-Over the past 50 years the US federal government has funded XX studies of the
-effectiveness of remote intercessory prayer on the health outcomes of people:
-the causal graph:
-
-\begin{tikzcd}
- {\text{Persons A,B,$\ldots$ pray that person Y health improves}}  & {\text{Person A Health}} \\
-    \arrow[from=1-1, to=1-2]
-\end{tikzcd}
-
-Would it have been better to have coordinated the studies? 
-
-The point of this paper is in the title or alternative titles: 
- - Research designs do not generalize: Humans do.
- - It is all about theory.
- - We study to explain.
-
-These ideas have been articulated before in Shadish etc and even are implicit in
-Baremboim. This paper applies them to the question about the policy relevance
-and application of studies / cumulated or not. And the question of how
-coordianted studies might add value or improve policy decision making. At the
-root is the problem of multiple DAGs.
-
-What is the problem? 
-
-The problem is that a given policy maker making a decision
-may not be able to use findings about some $\theta_1$ because that path is not
-manipulable --- practical or political or ethical reasons prevent use of that
-path. So learning that, say, 1,2 or 10 other cities had changes in $Z_1$ work
-well for $Y$, doesn't matter for that policy maker. 
-
-The other problem is that the policy maker may have a different DAG --- may not
-believe that $\theta_1 > 0$ in their city (**this** could be answered perhaps by
-studies in places with similar context to $Z$ and context to $Y$ relationships).
-
-The next problem is that a policy maker may not believe the results --- even if
-$Z$ is manipulable and if the policy maker thinks that the context would allow
-$Z$ to operate as hoped for or as reported in other places. The policy maker may
-worry that the information about $\theta_1$ is basically a political claim, a
-statement of hope or desire and not a report from a study which could replicate
-even in its own context. Fears of fraud. Fears and mistrust of the producers of
-the studies.
-
-And of coruse by $Z$ we are talking about the precise ways that $Z$ could be
-manipulated --- when there is the slippage in concept (what it means to provide
-coaching to families in one city might be different in another city --- so there
-may be no $Z$ but a series of related manifestations --- where the diffeernces
-could easily lead to big differences in outcomes or at least a savvy leader may
-fear this.)
-
-Given a shared DAG. And a sense that you can intervene on one arm. Then the
-question is about either or both of $\theta$ and $p$ or posterior about
-$\theta$. But often we do not have a shared DAG and the purpose of the study is
-to suggest that one or more paths of a DAG are 0 or non-zero, or perhaps
-describe the moderating effect of certain contexts (also paths on the DAG, but
-indirect).
-
-
-
-
-
-
-What are the implications?
-
- - We need to elicit DAGs from both researchers and policy decision making
-   teams.
- - Studies can and should target parts of the DAGs --- they need not target the
-   main driver to main outcome if that is difficult. We may learn more by
-   targetting parts of the DAGs.
- - Some studies basically add evidence to the existence of a path in a DAG ---
-   which in and of itself is useful but may not make it easier for a policy
-   expert to use the study.
- - Studies must be intelligible and trusted in order to be useful.
- - Concepts are not the same.
 
