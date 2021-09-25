@@ -24,18 +24,36 @@ biblatex: true
 
 # How can coordinated studies help improve policy decision making?
 
-A group of policy makers must make a policy and oversee its implementation in a given place and
-time.^[I'm imagining a city council or other executive group in this paper.]
-This policy is a change to some process that the policy makers hope will improve
-some outcomes in their jurisdiction. For example, they
-might hope to improve both the mental health and physical comfort of urban
-neighborhoods by planting trees along the sidewalk. Or they might hope to improve the
-kindergarten readiness of low income children by funding a special program to
-coach families in how to talk and read with their toddlers. Or they might make
-all public transit free in their city in order to reduce inequality and improve
-the economy. In each case they have choices about how to pursue these outcomes.
-And they also face trade-offs across different areas. How might coordinated
-studies help?
+A group of policy makers must make a policy and oversee its implementation in a
+given place and time.^[I'm imagining a city council or other executive group in
+this paper.] This policy is a change to some process that the policy makers hope
+will improve some outcomes in their jurisdiction. For example, they might hope
+to improve both the mental and physical health, comfort, and neighborhood
+attitudes of urban neighborhoods by planting trees along the sidewalk. Or they
+might hope to improve the kindergarten readiness of low income children by
+funding a program to coach families in how to talk and read with their
+toddlers. Or they might make all public transit free in their city in order to
+reduce inequality and improve the economy. In each case they have choices about
+how to pursue these outcomes.  And they also face trade-offs across different
+areas.
+
+Studies of the effects of coaching on kindergarten readiness or trees on
+attitudes should, in principle, help policy makers. Or at least, many
+researchers justify their research to themselves and others on the grounds of
+policy relevance. However, researchers can criticize the results of any single
+study on many grounds --- if the results do not agree with the priors of some
+group, they might dismiss the results if the analysis was not done in a
+transparent way (for example if the analysis plan was not pre-registered or the
+code and data were not made public). Or they might argue that even a $p < .01$
+for a null hypothesis of no effects merely means that a given result could be a
+rare event --- yes, surprising from the perspective of the null hypothesis, but
+making an rare error doesn't change the cost that error on the public. If the
+result arose in a study in a context very different from the given city, critics
+might argue that, say, a positive result **there** ought not be used as evidence
+on which to base a costly policy change **here**.
+
+
+
 
 When I asked policy makers whether a finding from a multi-city, coordinated, study would help
 decision making in their city, the 
