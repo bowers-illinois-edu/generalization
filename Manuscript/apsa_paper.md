@@ -52,7 +52,8 @@ result arose in a study in a context very different from the given city, critics
 might argue that, say, a positive result **there** ought not be used as evidence
 on which to base a costly policy change **here**.
 
-
+Knowing about these criticisms, but still convinced that scientific research,
+researchers have developed a series of responses, changes in practice.
 
 
 When I asked policy makers whether a finding from a multi-city, coordinated, study would help
