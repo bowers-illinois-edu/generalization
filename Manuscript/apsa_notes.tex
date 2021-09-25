@@ -1,0 +1,181 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+  \setmainfont[]{Merriweather-Light}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdfauthor={Jake Bowers; James Kuklinski; Carrie Cihak},
+  colorlinks=true,
+  linkcolor={Maroon},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[left=1.25in,right=1.25in,bottom=1in,top=1in]{geometry}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{2}
+\usepackage{fancyhdr,quiver}
+\fancypagestyle{myfancy}{%
+  \fancyfoot[C]{}
+  \fancyfoot[R]{Version of --- \today --- \thepage}}
+\pagestyle{myfancy}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage[]{biblatex}
+\addbibresource{../../Research-Group-Bibliography/big.bib}
+
+\title{Decisions}
+\author{Jake Bowers\footnote{\href{mailto:jwbowers@illinois.edu}{\nolinkurl{jwbowers@illinois.edu}}} \and James
+Kuklinski \and Carrie Cihak}
+\date{}
+
+\begin{document}
+\maketitle
+
+\hypertarget{overviewintroduction}{%
+\section{Overview/Introduction}\label{overviewintroduction}}
+
+A mayor has decided to work to improve the educational outcomes of low
+income children in her city. Inspired by the success of the Providence
+Talks pilot study, and the literature on the ``word gap'', she decides
+to try to improve the verbal abilities of children from low income
+families before they enter kindergarten.
+
+\begin{tikzcd}[every arrow/.append style=-latex]
+\text{Home Language Environment Quality} \arrow[rd]                                              &             \\
+\text{Family SES} \arrow[r] \arrow[u] & \text{pre-Kindergarten Verbal Ability}          \\
+\text{Neighborhood Poverty} \arrow[ru] \arrow[uu, bend left=69] \arrow[u] \arrow[r] & \text{Pre-School Quality} \arrow[u]
+\end{tikzcd}
+
+\hypertarget{a-decision-setting}{%
+\section{A decision setting:}\label{a-decision-setting}}
+
+A mayor has decided to work to improve the educational outcomes of low
+income children in her city. She begins by learning about what social
+scientists currently think cause such outcomes and comes up with a graph
+to describe her results.
+
+\begin{figure}[!h]
+\centering
+\begin{tikzcd}[every arrow/.append style=-latex]
+ {\text{Family SES}}  & {\text{Educational Outcomes}} \\
+ {\text{Classroom Size}} \\
+ {\text{Teacher Quality}} \\
+ {\text{Neighborhood Poverty}} \\
+    \arrow[from=1-1, to=1-2]
+    \arrow[from=2-1, to=1-2]
+    \arrow[from=3-1, to=1-2]
+    \arrow[from=4-1, to=1-2]
+\end{tikzcd}
+\caption{A theory of educational outcomes at the level of concepts and
+relationships.}\label{fig:theory1}
+\end{figure}
+
+While puzzling over what she could do with her limited budget (or what
+she could convince the city council to support given the politics of
+that body), she hears about the Providence Talks Program (the Mayor of
+Providence, RI received an award for this program and the Bloomberg
+Foundation was funding a 5 city replication of it, using RCTs instead of
+the original observational study design). This was useful to learn
+because it also highlighted that the first causal graph was much too
+general --- Whose educational outcomes should matter? What age?
+Obviously certain kinds of policy interventions focus on different parts
+of the graph and aim at certain causal pathways and outcomes. The
+Providence Talks program focused on verbal abilities among toddlers with
+the aim that they would enter kindergarten well-prepared for school.
+Early childhood education outcomes seemed like something that the mayor
+would like to focus on this term --- maybe educational outcomes for
+older groups could be the focus next term if she is re-elected or a
+focus for some other person in her administration.
+
+\begin{figure}[!h]
+\centering
+\begin{tikzcd}[every arrow/.append style=-latex]
+{\text{Family SES}}  \arrow[from=1-1, to=1-2] \arrow[from=1-1, to=2-1] & {\text{Kindergarten Readiness Verbal Skills}} \\
+{\text{Home Language Environment Quality}}   \arrow[from=2-1, to=1-2] \\
+{\text{Neighborhood Poverty}}  \arrow[from=3-1, to=1-2] \\
+{\text{Pre-School Classroom Size}}       \arrow[from=4-1, to=1-2] \\
+{\text{Pre-School Teacher Quality}} \arrow[from=5-1, to=1-2] \\
+   \end{tikzcd}
+\caption{A theory of educational outcomes at the level of concepts and
+relationships.}\label{fig:theory2}
+\end{figure}
+
+She now has some decisions to make:
+
+\begin{itemize}
+\tightlist
+\item
+  She could commission research in her own city (let's imagine that all
+  research in this paper is an RCT just to make it a bit easier).
+\item
+  She could contribute to fund research in another city (say, this is
+  cheaper and less disruptive of her own city). (the other city could be
+  (a) ``like'' her city or (b) not very similar to her own city. Where
+  similarity has to do with context --- and the savvy mayor is really
+  thinking about context as different variables that could change or
+  limit any of the arrows drawn above (i.e. imagine a ``context'' node
+  in between each of the main causal drivers and the outcomes)
+\item
+  She could contribute to one of the coordinated experiments occuring
+  around the world (where, say, similar interventions are done in
+  multiple different cities --- none of them very similar to her own
+  city)
+\item
+  She could try to get her city to participate in a coordinated
+  experiment.
+\end{itemize}
+
+Now, there is a preliminary problem which is that ``educational
+outcomes'' are too vague to be easily measured. And the literature
+review in fact included studies of math scores among high school seniors
+and studies of kindergarten readiness. She decides to focus on
+kindergarten readiness and specifically on language abilities at
+kindergarten entry because she read some essays that claim that language
+abilities upon entering kindergarten can seriously disadvantage children
+with effects that are very long term --- if those kids had not been
+behind in reading and speaking and writing, they would have not been
+behind in math in their senior year of high school, or been behind in
+high school graduate rates.
+
+\printbibliography
+
+\end{document}
