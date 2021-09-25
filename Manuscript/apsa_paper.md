@@ -21,6 +21,28 @@ bibliography: ../../Research-Group-Bibliography/big.bib
 biblatex: true
 ---
 
+# Why does a more precisely estimated ATE not really help policy makers?
+
+This paper explains why even the most rigorous research studies can only have an
+indirect influence on policy decisions: the current literature on
+transportability of effects, and generalizability of results, helps us
+understand this problem. It also recommends approaches to
+coordinated studies that I think should enhance the effects of such studies on
+policy making.
+
+Coordinated studies have two main aims or more --- based in both statistical
+problems and also questions of interpretation: 
+ - Replicate and therefore address fundamental concerns about statistical
+   inference.
+ - Address issue that causal relationships are contextual: a finding in one
+   place or one research team might reveal a true relationship (taht would be replicable within that
+   context) but replicable nowhere else. 
+ -
+
+They are not built necessarily to address the concerns of policy makers. Which
+are often implementation and cost/risk concerns.
+
+  - 
 
 # How can coordinated studies help improve policy decision making?
 
@@ -52,8 +74,17 @@ result arose in a study in a context very different from the given city, critics
 might argue that, say, a positive result **there** ought not be used as evidence
 on which to base a costly policy change **here**.
 
-Knowing about these criticisms, but still convinced that scientific research,
-researchers have developed a series of responses, changes in practice.
+Knowing about these criticisms, but still convinced that scientific research
+should play a role in policy decision making, researchers have developed a
+series of responses, changes in practice. So, pre-registration and sharing of
+data. Also replication. And recently also coodination --- coordinated
+replication. All address the concerns above.
+
+However these are not the only concerns of policy makers but are more likely the
+concerns of other researchers. They are real. But to them should be added
+implementation and risk concerns.
+
+ - 
 
 
 When I asked policy makers whether a finding from a multi-city, coordinated, study would help
