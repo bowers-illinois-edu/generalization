@@ -1,25 +1,40 @@
 ---
 title: |
- | "Explanation, Generalization, Decision"
+ | What is the role of coordinated studies in evidence-based policy making?
 author:
  - Jake Bowers^[<jwbowers@illinois.edu> Thanks to Jim Kuklinski (University of
    Illinois), Carrie Cihak
    (King County, WA),
-   James Diossa (The Policy Lab @ Brown)]
+   James Diossa (The Policy Lab @ Brown), and participants in The Policy Lab @
+   Brown University Providence Talks Replication project and meetings.]
+date: September 26, 2021
 header-includes: |
-  \usepackage{fancyhdr,quiver}
+  \usepackage{fancyhdr,quiver,float}
   \fancypagestyle{myfancy}{%
-    \fancyfoot[C]{}
-    \fancyfoot[R]{Version of --- \today --- \thepage}}
+      \fancyhf{}
+      \renewcommand{\headrulewidth}{0pt}
+      \fancyfoot[R]{Version of --- \today --- \thepage}}
   \pagestyle{myfancy}
 secnumdepth: 2
 geometry: margin=1in
 link-citations: true
 numbersections: true
 colorlinks: true
+fontsize: 11pt
 bibliography: ../../Research-Group-Bibliography/big.bib
 biblatex: true
+biblio-style: authoryear-comp
 ---
+
+\begin{abstract}
+
+Coordinated randomized trials can help convince researchers that certain kinds
+of causal explanations are more or less plausible: helping elaborate a shared
+causal model linking interventions to outcomes. Policy makers may not share the
+same causal model although coordinated studies combined with transparency
+practices may convince policy makers to add nodes and paths to their model.
+
+\end{abstract}
 
 How can the advances in the cumulation of social science knowledge and
 extrapolation of findings from one context to another help policy makers make
@@ -146,9 +161,9 @@ So, if we can address all of the criticisms that opponents of a policy like
 planting trees, coaching families, or free public transit using strong research
 transparency and integrity practices combined with coordinated studies, should
 the policy makers in City A now have an easier time making decisions than they
-did before these developments? 
+did before these developments?
 
-# What about politics?
+# Challenges in the use of coordinated studies by policy makers
 
 Yes. The evidence in the hands of the policy makers in City A is certainly more
 useful if it arrives from the kinds of processes just described. Yet, the
@@ -164,55 +179,144 @@ kinds of outcomes listed above as examples in their use of the results of
 coordinated studies. Two conversations with policy makers crystallized many of
 these points for me, which I had also observed as I participated in the design
 of a coordinated experiment across 5 cities on coaching and kindergarten
-readiness.
+readiness. So, I write this list as questions and answers even even if this is
+not a record of any single dialogue.
+
+Q: What is the use of a coordinated study done in Cities B,C,D,E and F for City A?
+
+A: If one or more of those cities is similar to City A, then the results **for
+that or those cities** would be used if the policy intervention is realistic for
+City A. Results in not-similar cities or cities where the intervention differed
+from the possible intervention for City A would be ignored for fear that they
+would be misleading in regards the possible effect in City A.
+
+However, if an overall result, calculated using all of the cities, convinced a
+philanthropic foundation to fund a not-harmful intervention in City A, then, as
+long as the intervention did not face political opposition, City A would be
+willing to try to create a locally relevant implementation of the intervention.
+
+Q: What about state-of-the art extrapolation from the not-similar cities to City
+A using covariates measured in both places?
+
+A: Conditional on the intervention being politically and practically plausible
+and covariates measured the same way, with the same meaning in both place, then
+if such tools confirmed prior beliefs, then they would not be rejected.  Errors
+are so costly that proponents of such tools have a lot of work to do to convince
+policy makers of their utility, let alone to overcome the prior concerns about
+the meaning and measurement of covariates.
+
+Q: What would it mean to use a result?
+
+A: A result inspires a discussion about how to adapt the approach in the other
+places to the local context. If those implementing the new approach design a
+randomized trial to evaluate its success, they will use measurements and
+interventions that are easy for them and which help them interpret the causal
+effect estimated in their context. For example, different school districts
+measure verbal ability using different tests, and at different times in the life
+of a child: some use Test A in Kindergarten, others Test B in 3rd grade. The
+school districts have contracts with the makers of those tests and/or the tests
+are chosen at the level of the U.S. State. To implement the same test at the
+same time for thousands of children across districts dramatically increases the
+cost of a study and provides unclear information within localities which have
+processes already existing.
+
+Q: What might prevent use of a result?
+
+A: City A would need to be convinced that the kinds of people that the
+intervention aims to help were not harmed and in fact benefited from the
+intervention even if people benefited on average. For example, some
+jurisdictions make racial equity a criteria for policy interventions. A finding
+that, on average, people benefited but people of color did not benefit, would
+prevent the use of the result.  Above and beyond the subgroup specific effects,
+City A might also need to claim a kind of "no harm" expectation when building a
+coalition to support the new policy.
+
+The preceding fake conversation reveals that concerns about causal
+models/mechanisms for interventions, concerns about distributional consequences,
+and concerns about local implementation possibilities could all prevent the use
+of a given piece of evidence by policy makers.
+
+Policy makers have implicit (or explicit) causal models relating interventions
+to outcomes. For example, Figure~\ref{fig:theory2} shows a stylized causal model
+that a policy maker might have of kindergarten readiness in their own city (thus
+no $\boxed{S}$ below). The coaching intervention might improve kindergarten
+readiness, but so might addressing Family SES, Neighborhood Poverty, Teacher
+Quality, or Classroom sizes.
+
+\begin{figure}[H]
+\centering
+\begin{tikzcd}[every arrow/.append style=-latex]
+{\text{Family SES}}  \arrow[from=1-1, to=1-2] \arrow[from=1-1, to=2-1] & {\text{Kindergarten Readiness Verbal Skills}} \\
+{\text{Home Language Environment Quality}}   \arrow[from=2-1, to=1-2] \\
+{\text{Neighborhood Poverty}}  \arrow[from=3-1, to=1-2] \\
+{\text{Pre-School Classroom Size}}       \arrow[from=4-1, to=1-2] \\
+{\text{Pre-School Teacher Quality}} \arrow[from=5-1, to=1-2] \\
+   \end{tikzcd}
+\caption{A theory of educational outcomes at the level of concepts and
+relationships.}\label{fig:theory2}
+\end{figure}
+
+Before hearing about the coordinated coaching study, the policy makers in City A
+might not have had the "Home Language Environment Quality" as a part of their
+causal model. But upon hearing about the study, they might be willing to
+elaborate their causal model to add new elements to it. For example, they might
+be willing to believe that the intervention caused the outcome in the other
+cities given the benefits of transparency and coordination mentioned earlier.
+
+Once the new element is added to the causal model, questions about
+implementation and distribution arise.  Should they implement the coaching
+approach that appears promising from a study that ensured that all of the
+coaching interventions were done the same way across multiple cities? City A
+might do so only if they could imagine a plausible mode of implementing that
+coaching intervention (where "plausible" means not creating political conflict,
+and not costing more than intervening in any of the other parts of the causal
+model). For example, if home visiting nurses were the coaches in the cities in
+the coordinated study, and if City A had an active home visiting nurse program
+for low income families, the implementation of the program in City A might
+appear easier and plausible. However, if City A had decided long ago to not use
+home visiting nurses, and provided similar services in a different way, then
+City A might find the results of the coordinate study less relevant.
+
+Imagine the City A did have a home visiting program that aimed to support low
+income families --- in City A, imagine that these people were mostly
+agricultural workers. But the coordinated study did not
+report results for such people. City A would then wonder about whether the
+positive result from the coordinated study would be useful for its population.
+
+Further, imagine that results from the coordinated experiment were broken down
+within each city by income and type of employment. The decision makers in City A
+would ask whether coaching from nurses in City A would have the same kinds of
+effects as they would in the other Cities. Would living in apartment buildings
+change the effect? Or would home language matter? Would family structure matter?
+Causal mechanisms operate in a context.
+
+So, what is the benefit of the coordinated experiment for the policy makers in
+City A? It appears to be mostly to encourage them to add an element to their
+causal model. It could also encourage them to build their own intervention
+inspired by the results of the coordinated experiment, and perhaps even to have
+their own evaluation of their own new intervention. However, there are many
+barriers between a report from a coordinated experiment and the implementation
+of policy that appeared successful in other cities in City A.
+
+# Discussion and next steps in evidence-based policy making
+
+Coordinated studies and transparency practices help researchers add and remove
+paths from their causal model. In turn, this kind of scientific consensus about
+the nodes and paths of a model can help policy makers elaborate their own causal
+models (often also known as "theories of change"). This appears to be one of the
+most policy-relevant benefits of these studies from my current small set of
+interviews and observations.
+
+What else do policy makers need? Focused studies on key elements of the causal
+model could help. They need not be coordinated, but should explicitly target a
+causal pathway of interest to a policy-maker. Studies of variation in causal
+effects across different contexts could also help policy makers judge the
+relevance of any given finding for their jurisdiction.
+
+What do we hope from the design of studies, coordinated or not? One hope is that
+such studies would convince policy makers to update their prior beliefs. The
+strongest such study would convince people who held beliefs that ran opposite to
+the findings of the study. 
 
 
-
-
- two discussions with policy makers, I highlighted some efforts to
-coordinate studies so as to increase scientific confidence in, say, the sign and
-rough magnitude of some policy intervention.
-
-
-
-# How might a single study help the city council?
-
-## A single study done in a different context (different in place and/or time and/or covariates)?
-
-## A single study done in a similar context (similar in place and/or time and/or covariates)?
-
-## A single study done in a the same context (similar in place and/or time and/or covariates)?
-
-# How might a coordinated study help the city council?
-
-
-
-# Discussion and Additional Considerations
-
-
-
-What else would policy makers like to know?
-
- - What is the evidence that the kinds of people I care about were not harmed by
-   your intervention even if people benefited on average?
- - What is the evidence that the kinds of people I care about benefited from the
-   intervention even if you detected no average effect?
-
-
-
-I don't think they need an estimated
-average treatment effect and confidence interval from a combined analysis of
-multiple coordinated studies. Nor do I think they need the same kind of
-information produced via some prediction or transportability function (where the
-average treatment effect in one or more studies done in other places and times
-are weighted using covariate information from the given place and given time so
-as to predict how the average treatment effect would be estimated if the same
-experiment(s) were executed there and then.) I do think that a scientific
-consensus about the "theory of change" or causal mechanisms relevant to their
-decision can help them. And I also think that evidence about the different paths
-in the causal graph that represents this theory helps them: this is where
-coordinated experiments come in. Coordinated studies help scientists to
-establish a consensus about an mechanistic explanation for an outcome of
-concern.^[Ideally, scientists and policy makers care about the same outcome and
-have agreed on aspects of conceptualization and measurement of it.]
 
